@@ -1,18 +1,18 @@
 {
   "name": "eventodd",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "EventOdd package is develop for practicing NPM function",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"lib/**/*.ts\" \"lib/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
+    "version": "npm run format && git add -A lib",
     "postversion": "git push && git push --tags"
   },
   "repository": {
