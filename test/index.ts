@@ -1,4 +1,4 @@
-import eventodd from 'eventodd'
+import eventodd from '../lib'
 // Return console.log is event or odd number
 eventodd.eventOdd(2)
 // Return boolean if input number is event number

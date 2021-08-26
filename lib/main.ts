@@ -10,7 +10,7 @@ const isEvent = (num: number) => num % 2 == 0
 
 const isOdd = (num: number) => num % 2 != 0
 
-export = {
+export default {
   eventOdd: eventOdd,
   isEvent: isEvent,
   isOdd: isOdd
