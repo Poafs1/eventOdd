@@ -1,6 +1,6 @@
 {
   "name": "eventodd",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "EventOdd package is develop for practicing NPM function",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
