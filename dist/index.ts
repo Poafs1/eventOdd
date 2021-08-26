@@ -1,4 +1,4 @@
-const eventOdd = (num: number) => {
+export const eventOdd = (num: number) => {
   if (isEvent(num)) {
     console.log('Is event number.')
   } else {
@@ -6,12 +6,6 @@ const eventOdd = (num: number) => {
   }
 }
 
-const isEvent = (num: number) => num % 2 == 0
+export const isEvent = (num: number) => num % 2 == 0
 
-const isOdd = (num: number) => num % 2 != 0
-
-export = {
-  eventOdd: eventOdd,
-  isEvent: isEvent,
-  isOdd: isOdd
-}
+export const isOdd = (num: number) => num % 2 != 0
