@@ -1,4 +1,4 @@
-import { eventOdd, isEvent, isOdd } from '../index'
+import { eventOdd, isEvent, isOdd } from '../index';
 
 // Test event odd function
 describe('Test eventOdd function', () => {
