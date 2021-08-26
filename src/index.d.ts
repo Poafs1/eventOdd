@@ -1,6 +1,3 @@
-declare const _default: {
-  eventOdd: (num: number) => 'Is event number.' | 'Is odd number.';
-  isEvent: (num: number) => boolean;
-  isOdd: (num: number) => boolean;
-};
-export default _default;
+export declare const eventOdd: (num: number) => "EVENT!" | "ODD!";
+export declare const isEvent: (num: number) => boolean;
+export declare const isOdd: (num: number) => boolean;

@@ -1,17 +1,5 @@
-const eventOdd = (num: number) => {
-  if (isEvent(num)) {
-    return 'Is event number.';
-  } else {
-    return 'Is odd number.';
-  }
-};
+export const eventOdd = (num: number) => num % 2 === 0 ? 'EVENT!' : 'ODD!'
 
-const isEvent = (num: number) => num % 2 === 0;
+export const isEvent = (num: number) => num % 2 === 0;
 
-const isOdd = (num: number) => num % 2 !== 0;
-
-export default {
-  eventOdd,
-  isEvent,
-  isOdd,
-};
+export const isOdd = (num: number) => num % 2 !== 0;
