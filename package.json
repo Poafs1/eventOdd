@@ -2,7 +2,8 @@
   "name": "eventodd",
   "version": "1.0.3",
   "description": "EventOdd package is develop for practicing NPM function",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
